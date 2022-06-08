@@ -104,7 +104,4 @@ function dataEhValida($data, $formato) {
     } catch (Exception $e) {
         return false;
     }
-    /*if (!DateTime::createFromFormat("Y-m-d", $data))
-        return false;
-    return true;*/
 }
